@@ -31,8 +31,8 @@ export default class App extends React.Component {
               style: { color: 'black', fontSize: 20 },
             }}></Header>
 
-          <Image style={styles.image1}>
-            source={{ uri: 'https://www.shareicon.net/data/128x128/2015/08/06/80805_face_512x512.png' }}
+            <Image style = {styles.image1}>
+            source={{uri:'https://www.shareicon.net/data/128x128/2015/08/06/80805_face_512x512.png'}} 
           </Image>
 
           <TextInput
@@ -62,7 +62,7 @@ export default class App extends React.Component {
               );
             })}
           </View>
-
+          
         </View>
       </SafeAreaProvider>
     );
@@ -92,11 +92,10 @@ const styles = StyleSheet.create({
   textbox: {
     backgroundColor: 'yellow',
   },
-  image1: {
-    marginLeft: 100,
-    width: 100,
-    height: 100,
-
+  image1:{
+    marginLeft:100,
+    width:100,
+    height:100,
+   
   }
 });
-
